@@ -43,7 +43,7 @@ NSArray *sourceArray = @[@{
     NSLog(@"result:%@", result);
 ```
 
-```
+```objc
 - (NSArray *)childFromRootID:(NSString *)pid sourceArray:(NSArray *)dataArray {
     NSMutableArray *array = [NSMutableArray array];
     
